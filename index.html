@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recherche de films</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Recherche de films</h1>
+    </header>
+    <main>
+      <section class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Rechercher un film..."
+        />
+        <select id="genre-select">
+          <option value="">Tous les genres</option>
+          <option value="28">Action</option>
+          <option value="12">Aventure</option>
+          <!-- Ajoutez d'autres options de genre ici -->
+        </select>
+        <select id="year-select">
+          <option value="">Toutes les années</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <!-- Ajoutez d'autres options d'année ici -->
+        </select>
+        <button id="search-button">Rechercher</button>
+        <button id="filter-button">Filtrer</button>
+      </section>
+      <section class="results-container">
+        <div id="pagination" class="pagination"></div>
+        <div id="current-results" class="current-results"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 GPW</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
