@@ -1,19 +1,27 @@
-Recherche de Films 
+# Application de Recherche de Films
 
-Caractéristiques Techniques :
 
-HTML5, CSS3, JavaScript : Respectant les normes actuelles, le projet offre une structure HTML sémantique, un style CSS moderne, et une interaction dynamique grâce à JavaScript.
+## Description
 
-Intégration de l'API TMDb : Utilisation de l'API The Movie Database (TMDb) pour récupérer des informations sur les films, illustrant ma capacité à intégrer des sources de données externes dans mes projets.
+Cette application de recherche de films offre une interface conviviale permettant aux utilisateurs de découvrir des films en fonction de critères tels que le titre, le genre, et l'année de sortie. L'utilisation de sélecteurs et de boutons de recherche et de filtrage rend l'expérience intuitive.
 
-Recherche et Filtrage Dynamiques : La recherche de films peut être effectuée en fonction du titre, du genre et de l'année de sortie, mettant en avant ma compréhension des requêtes API dynamiques.
+## Fonctionnalités Principales
 
-Pagination : La pagination est implémentée pour faciliter la navigation entre les résultats, démontrant ma capacité à gérer efficacement de grandes quantités de données.
+- **Recherche Dynamique** : Saisissez le titre du film et filtrez par genre et année pour obtenir des résultats précis.
 
-Fonctionnement :
+- **Filtrage par Genre** : Choisissez parmi différents genres pour affiner vos résultats.
 
-Recherche de Films : Saisissez le titre d'un film dans le champ de recherche et appuyez sur le bouton "Rechercher". Vous pouvez également filtrer par genre et année.
+- **Filtrage par Année** : Sélectionnez une année spécifique pour voir les films sortis cette année-là.
 
-Affichage des Résultats : Les résultats de la recherche sont affichés avec des détails tels que le titre, l'année de sortie, la note, et le résumé du film.
+- **Pagination** : Les résultats sont paginés pour une navigation aisée.
 
-Pagination Intuitive : Naviguez entre les pages de résultats grâce aux boutons de pagination, offrant une expérience utilisateur fluide.
+## Technologies Utilisées
+
+- HTML, CSS
+- JavaScript
+
+## Installation
+
+1. **Clonez le dépôt** : `git clone https://github.com/votre-utilisateur/recherche-films.git`
+2. **Ouvrez le fichier HTML** : `index.html`
+
